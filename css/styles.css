@@ -73,3 +73,11 @@ input[type="radio"] {
 #tab3:checked~.panel_area #panel3 {
     display: block;
 }
+
+#tab4:checked~.tab_area .tab4_label {
+    color: #000;
+}
+
+#tab4:checked~.panel_area #panel4 {
+    display: block;
+}
