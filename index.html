@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>太郎のポートフォリオサイト</title>
+    <link rel="icon" href="../MyPortfolio/favicon.ico">
+    <meta name="description" content="DaisyBell実験">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="tab_wrap">
+            <input id="tab1" type="radio" name="tab_btn" checked>
+            <input id="tab2" type="radio" name="tab_btn">
+            <input id="tab3" type="radio" name="tab_btn">
+            <input id="tab4" type="radio" name="tab_btn">
+
+            <div class="tab_area">
+                <label class="tab1_label" for="tab1">勤怠</label>
+                <label class="tab2_label" for="tab2">tab2</label>
+                <label class="tab3_label" for="tab3">tab3</label>
+                <label class="tab4_label" for="tab3">tab4</label>
+                <p></p>
+            </div>
+            <div class="panel_area">
+                <div id="panel1" class="tab_panel">
+                    <p>panel1</p>
+                </div>
+                <div id="panel2" class="tab_panel">
+                    <p>panel2</p>
+                </div>
+                <div id="panel3" class="tab_panel">
+                    <p>panel3</p>
+                </div>
+                <div id="panel4" class="tab_panel">
+                    <p>panel4</p>
+                </div>
+            </div>
+        </div>
+        <!--
+            ol：(o)rdered (l)ist 連番がつくリスト
+            ul：(u)nrdered(l)ist 連番がつかないリスト
+            li：(l)ist (i)tem リストの中身の明示
+        -->
+        <nav>
+            <ul>
+                <li class="current">
+                    <a href="index.html">
+                        HOME
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        ABOUT
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="works">
+
+        <section>
+            <img src="img/taro.png" width="140" height="140" alt="コンテンツ1アイコン" class="icon">
+            <h1>コンテンツ1</h1>
+            <p>コンテンツ説明</p>
+
+            <section>
+                <img src="img/work1.png" width="400" height="260" alt="コンテンツ2アイコン">
+                <h1>コンテンツ2</h1>
+                <p>コンテンツ2説明</p>
+            </section>
+
+            <section>
+                <img src="img/work2.png" width="400" height="260" alt="コンテンツ3アイコン">
+                <h1>コンテンツ3</h1>
+                <p>コンテンツ3説明</p>
+            </section>
+
+            <section>
+                <img src="img/work3.png" width="400" height="260" alt="コンテンツ4アイコン">
+                <h1>コンテンツ4</h1>
+                <p>コンテンツ4説明</p>
+            </section>
+        </section>
+    </div>
+
+
+    <footer>
+        <ul>
+            <li>
+                <!-- メールリンクはhref="mailto:メールアドレス"。サイトにtarget="_blank"を入れると別タブで開ける -->
+                <a href="★URLをここに入力★" target="_blank">
+                    <img src="img/mail.png" width="20" height="20" alt="リンク1""">
+                </a>
+            </li>
+            <li>
+                <!-- 通常リンクはhref="リンク先URL"。デフォルトはそのタブでリンク先へ移動。最後にtarget="_blank"を入れると別タブで開ける -->
+                <a href="★URLをここに入力★" target="_blank">
+                    <img src="img/blog.png" width="20" height="20" alt="リンク2">
+                </a>
+            </li>
+            <li>
+                <a href="★URLをここに入力★" target="_blank">
+                    <img src="img/photos.png" width="20" height="20" alt="リンク3">
+                </a>
+            </li>
+        </ul>
+        <p>(c) 商標名</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- 行を選択→「Alt」押しながら「↑」「↓」すると、その行ごと移動する。(選択しない場合今いる1行が移動する) -->
+<!-- 「Shift」+「tab」で、字下げを無効にする -->
+<!-- 「Ctrl」+「/」で、コメントアウトorコメントアウト解除 -->
