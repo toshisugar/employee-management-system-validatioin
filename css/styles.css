@@ -1,12 +1,16 @@
 body{
-    margin: 0 300px;
+    /* padding: 0 200px; */
+    margin: 0;
     background-color: #FFFAE6;
+    margin: 0;
 }
 
 header{
-    margin: 20px 0 0 0;
+    position: fixed;
+    background-color: #FFFAE6;
+    width: 70%;
+    padding: 0 15%;
 }
-
 .header__sitename {
     text-decoration: none;
     color: #333;
@@ -14,9 +18,15 @@ header{
     color: #333;
 }
 
+header:after{
+    content: "";
+    display: block;
+}
+
 .tab_wrap {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 input[type="radio"] {
@@ -25,7 +35,7 @@ input[type="radio"] {
 
 .tab_area {
     font-size: 0;
-    margin: 0;
+    /* margin: 0; */
     background: #fac800;
     border-radius: 5px;
     padding: 0 10px;
@@ -52,6 +62,9 @@ input[type="radio"] {
 
 .panel_area {
     background: #fff;
+    width: 70%;
+    padding: 0 15%;
+
 }
 
 .tab_panel {
@@ -96,4 +109,10 @@ input[type="radio"] {
 
 #tab4:checked~.panel_area #panel4 {
     display: block;
+}
+
+.works {
+    width: 70%;
+    padding:150px 15% 0 15%;
+    
 }
