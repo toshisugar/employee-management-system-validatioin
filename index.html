@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<!--React validation-->
+<div id="react__button__container"></div>
+
+<!--end React validation-->
+
 <body>
     <!-- header -->
     <header>
@@ -129,6 +134,14 @@
         </ul>
         <p>(c) 商標名</p>
     </footer>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="react__button.js"></script>
 </body>
 
 </html>
