@@ -80,6 +80,7 @@ input[type="radio"] {
 }
 
 #tab1:checked~.tab_area .tab1_label {
+    background:#fff;
     color: #000;
 }
 
@@ -88,6 +89,7 @@ input[type="radio"] {
 }
 
 #tab2:checked~.tab_area .tab2_label {
+    background:#fff;
     color: #000;
 }
 
@@ -96,6 +98,7 @@ input[type="radio"] {
 }
 
 #tab3:checked~.tab_area .tab3_label {
+    background:#fff;
     color: #000;
 }
 
@@ -104,6 +107,7 @@ input[type="radio"] {
 }
 
 #tab4:checked~.tab_area .tab4_label {
+    background:#fff;
     color: #000;
 }
 
